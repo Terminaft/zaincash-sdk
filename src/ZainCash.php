@@ -254,7 +254,8 @@ class ZainCashSDK
     $redirect_url = $this->handleHttpResponse($http_response);
 
     //redirects to redirection url
-    $this->redirect($redirect_url);
+    //$this->redirect($redirect_url);
+    return $redirect_url;
   }
 
   /**
